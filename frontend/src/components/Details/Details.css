@@ -1,0 +1,25 @@
+.details {
+    width : 100%;
+    
+}
+
+.buttons {
+   
+    width : 100%;
+    display  :flex;
+    justify-content: center;
+    align-items: center;
+    position : absolute;
+    bottom : 25px;
+    left : 0px;
+}
+.buttons button {
+    margin : 0 4px;
+    width  :50px;
+    font-size: 10px;
+    text-align: center;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+
+}

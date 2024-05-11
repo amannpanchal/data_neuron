@@ -1,0 +1,25 @@
+.elements {
+    display: flex;
+    justify-content: space-evenly !important;
+    position: relative !important;
+    flex-direction: column;
+    height : 100vh;
+ 
+}
+
+
+.elements>* {
+    flex: 1;
+    max-height: 50%!important;
+    min-height: 5px!important;
+   
+    position :relative!important;
+    display: flex;
+        justify-content: center!important;
+       padding :   20px;
+       cursor : pointer!important;
+        align-items: center;
+}
+.elements>*:hover{
+    box-shadow: 1px 1px 20px 1px gray;
+}
